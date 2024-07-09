@@ -62,7 +62,7 @@ if (opciones === 1){
             i = 3
         }
         else if(adivinanza !== 2 && i === 2){
-            alert("La respuesta correcta es: Una moneda\n\nBuena suerte la próxima vez :(")
+            alert("La respuesta correcta es: La Luna\n\nBuena suerte la próxima vez :(")
         }
         else {
             alert("RESPUESTA INCORRECTA. Vuelva a intentarlo.")
@@ -90,14 +90,14 @@ if (opciones === 1){
             i = 3
         }
         else if(adivinanza !== 3 && i === 2){
-            alert("La respuesta correcta es: Una moneda\n\nBuena suerte la próxima vez :(")
+            alert("La respuesta correcta es: Una Carta\n\nBuena suerte la próxima vez :(")
         }
         else {
             alert("RESPUESTA INCORRECTA. Vuelva a intentarlo.")
         }
     }
     for (let i = 0; i < 3; i++) {
-        adivinanza = Number(prompt("ADIVINANZA N°4:\nSoy pequeño como un ratón, pero guardo toda la información del mundo. ¿Qué soy?\n(1) Un Libro                   (2) Una Biblioteca\n(3) Una computadora    (4) Una Celular"))
+        adivinanza = Number(prompt("ADIVINANZA N°4:\nSoy pequeño como un ratón, pero guardo toda la información del mundo. ¿Qué soy?\n(1) Un Libro                   (2) Una Biblioteca\n(3) Una computadora    (4) Un Celular"))
         if (adivinanza === 4 && i === 0){
             alert("RESPUESTA CORRECTA!. Suma 10 puntos!")
             puntos(10)
@@ -118,7 +118,7 @@ if (opciones === 1){
             i = 3
         }
         else if(adivinanza !== 4 && i === 2){
-            alert("La respuesta correcta es: Una moneda\n\nBuena suerte la próxima vez :(")
+            alert("La respuesta correcta es: Un Celular\n\nBuena suerte la próxima vez :(")
         }
         else {
             alert("RESPUESTA INCORRECTA. Vuelva a intentarlo.")
@@ -152,7 +152,7 @@ if (opciones === 1){
             i = 3
         }
         else if(adivinanza !== 1 && i === 2){
-            alert("La respuesta correcta es: Una moneda\n\nBuena suerte la próxima vez :(")
+            alert("La respuesta correcta es: Un Río\n\nBuena suerte la próxima vez :(")
             alert("El juego a finalizado, su puntaje obtenido fue de: " + totalPuntos + " puntos")
             inicio = false
         }
